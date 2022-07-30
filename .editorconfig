@@ -1,0 +1,22 @@
+#https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
+
+root = true # top-most EditorConfig file
+
+[*] # all files
+charset = utf-8 # encoding
+end_of_line = crlf #lf cr crlf (Unix: lf / Windows: crlf)
+insert_final_newline = true # newline on end of file
+# space indentation
+indent_style = space #space tab
+indent_size = 2 #spaces to indent
+max_line_length = 50
+ij_visual_guides = 150
+ij_wrap_on_typing = true
+
+trim_trailing_whitespace = true # remove whitespace preceding new line
+
+# Properties depends on the IDE
+quote_type = auto # single double auto
+spaces_around_operators = true # whitespace arround arithmetic and boolean operators
+spaces_around_brackets = none # whitespace arround brackets and parentheses #none inside outside both
+wildcard_import_limit = 5 # more than x imports always collapsed
