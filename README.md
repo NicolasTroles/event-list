@@ -16,16 +16,19 @@
         "status": "done"
       }]`
 
-#Some comments
+# Some comments
 
 - I installed and configured eslint and prettier
 - I renamed the files from index.tsx to the name of the component. This way its easier to find the file in VScode (ex.: Home/index.tsx -> Home/Home.tsx)
 - I moved the components related only to Home.tsx inside of the same folder. I'm used to only let new components inside of folder 'components' if they are used in more than one component, this way the folder 'components' does not get too big.
 - I moved the Styles related to each component inside of theirs folders, this way it stays more centralized the styles.
 
+![Captura de Tela 2022-07-29 às 22 10 11](https://user-images.githubusercontent.com/8795657/181864636-8bef0eb1-6378-4cfc-8ff9-9df60543b935.png)
+
 # How to run
 
 Clone the project into your computer, access the folder of the clonned repository in your terminal and execute `npm install` or `yarn` to install all the packages, than execute `yarn start`.
+
 
 # ;D
 
