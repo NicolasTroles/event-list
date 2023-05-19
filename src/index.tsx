@@ -28,10 +28,28 @@ root.render(
         <Layout>
           <GlobalStyled.HeaderWrapper>
             <Header>
-              <img
-                width={300}
-                src="https://assets.website-files.com/5e2495f5992bfa2a8b2e2365/5e583b4ac8f5875e1262a672_22_Logo_MW_Font_dark.svg"
-              />
+              <div
+                style={{
+                  width: '100%',
+                  display: 'flex',
+                  gap: '20px',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  flexWrap: 'wrap',
+                }}
+              >
+                <img height="100" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/reactjs_logo_icon_170805.png" />
+                <img height="100" src="https://www.specbee.com/sites/default/files/inline-images/Ant.png" />
+                <img
+                  height="80"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
+                />
+                <img height="80" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Redux_Logo.png" />
+                <img
+                  height="80"
+                  src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png"
+                />
+              </div>
             </Header>
           </GlobalStyled.HeaderWrapper>
           <Content>
