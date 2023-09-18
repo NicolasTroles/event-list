@@ -1,6 +1,6 @@
 [![My Skills](https://skills.thijs.gg/icons?i=react,redux,typescript,styledcomponents,css,html)](https://skills.thijs.gg)
 
-# Challange
+# Challenge
 
 - Create a event list handler where you can add, edit and remove an events
 - Visualize the events in a Calendar by month
